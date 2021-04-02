@@ -1,0 +1,45 @@
+#go_title {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+#menu {
+  display: none;
+  position:absolute;
+  top: 550px;
+  left: 500px;
+}
+#play{
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
+#htp {
+  position: absolute;
+  top: 550px;
+  left: 500px;
+}
+#background {
+  display: none
+  top: 0px;
+  left: 0px;
+}
+#title {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+#gameArea {
+  display: none;
+}
+#sound {
+  position: absolute;
+  display: block;
+  top: 650px;
+  left:1450px;
+}
+#htp_screen {
+  top: 0;
+  left: 0;
+  display: none;
+}

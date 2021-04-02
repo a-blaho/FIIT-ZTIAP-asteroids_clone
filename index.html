@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Asteroids</title>
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script src="scripts/satelite.js"></script>
+  <script src="scripts/asteroid.js"></script>
+  <script src="scripts/laser.js"></script>
+  <script src="scripts/player.js"></script>
+  <script src="scripts/background.js"></script>
+  <script src="scripts/menu.js"></script>
+  <script src="scripts/main.js"></script>
+</head>
+
+<body>
+  <img src="img/screens/background.jpg" alt="" id="background">
+  <img src ="img/screens/how_to_play_screen.png" alt="" id="htp_screen">
+  <img src="img/screens/title.png" alt="" id="title">
+  <img src="img/screens/game_over_title.png" alt="" id="go_title" hidden = "true">
+  <img src="img/buttons/how_to_play.png" onclick="howToPlay()" onmouseover="this.src='img/buttons/how_to_play_hover.png'" onmouseout="this.src='img/buttons/how_to_play.png'" alt="" id="htp">
+  <img src="img/buttons/menu.png" onclick="menu()" onmouseover="this.src='img/buttons/menu_hover.png'" onmouseout="this.src='img/buttons/menu.png'" alt="" id="menu">
+  <img src="img/buttons/play.png" onclick="play()" onmouseover="this.src='img/buttons/play_hover.png'" onmouseout="this.src='img/buttons/play.png'" alt="" id="play">
+  <img src="img/buttons/sound_on.png" onclick="sound()" onmousedown="this.src='img/buttons/sound_off.png'" alt="" id="sound">
+
+  <canvas id="gameArea" width="1500" height="700"></canvas>
+
+  <img src="img/sprites/player.png" alt="" id="ship" hidden="true">
+  <img src="img/sprites/heart.png" alt="" id="heart" hidden="true">
+  <img src="img/sprites/asteroidBig.png" alt="" id="asteroidBig" hidden="true">
+  <img src="img/sprites/asteroidMed.png" alt="" id="asteroidMed" hidden="true">
+  <img src="img/sprites/satelite.png" alt="" id="satelite" hidden="true">
+  <img src="img/sprites/asteroidSmall.png" alt="" id="asteroidSmall" hidden="true">
+  <img src="img/sprites/laser.png" alt="" id="laser" hidden="true">
+  <img src="img/sprites/shield.png" alt="" id="shield" hidden="true">
+</body>
+
+</html>
